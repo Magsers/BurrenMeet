@@ -1,0 +1,18 @@
+ul#menu li {
+  display: inline;
+  padding:12px;
+  text-align: left;
+  background: #1C3959;
+  color: #95D904;
+  margin: 10px;
+}
+
+ul#menu a {
+text-decoration: none;
+color: #95D904;
+}
+
+#menu li.active a {
+  background: #1C3959;
+  color: white;
+}

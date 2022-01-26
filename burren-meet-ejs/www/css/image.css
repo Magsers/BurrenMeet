@@ -1,0 +1,56 @@
+.small-center-img {	
+	float : center;
+	margin: 10px;
+	width: 250px;
+}
+
+.small-left-img {
+	float : left;
+	margin: 5px;
+	width: 100px;
+}
+
+.small-right-img {
+	float : right;
+	margin : 10px;
+	width : 100px;
+}
+
+.medium-center-img {
+	display: block;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto
+}
+.medium-right-img {
+	float : right;
+	margin : 10px;
+	width : 200px;
+}
+
+.large-center-img {
+  	display: block;
+  	width: 250px;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.large-left-img {
+	float : left;
+	margin : 5px;
+	width : 150px;
+}
+
+.sponsors-img {
+	float : left;
+	margin : 20px;
+	width : 80px;
+}
+
+.panorama-img {
+	display: block;
+	width: 650px;
+	height : 200px;
+	margin-left: auto;
+	margin-right: auto
+}

@@ -1,0 +1,129 @@
+@import url("grid.css");
+@import url("nav.css");
+@import url("image.css");
+
+body {
+  font-family: Rockwell Nova, Helvetica, Arial, sans-serif;
+  font-size: small;
+  line-height: 2em;
+  background: url('../images/sirenbackground.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  padding: 20px;
+}
+
+h2, h3 {
+  text-decoration: bold;
+  color: black;
+  text-shadow: 1px 1px gray;
+  text-align: center;
+  color:#1C3959;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px gray;
+  color:#1C3959;
+}
+
+p {
+  color:black;
+  text-align: justify;
+  margin:30px;
+}
+
+a {
+	color:#1C3959;
+}
+
+table, th, td {
+  border: 1px;
+  padding: 5px;
+  text-align: left;
+}
+
+th {
+  height:30px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+tr {
+  height:20px;
+}
+
+table {
+  width: 80%;
+}
+
+ul {
+  margin: 20px;
+}
+
+figure {
+  display:inline-block;
+}
+
+figcaption {
+  text-align: center;
+  font-size: smaller;
+}
+
+figure img {
+  vertical-align: top;
+}
+
+iframe {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  display: block;
+  grid-row-start: 2;
+}
+
+#rightpage p {
+  line-height: 1.6em;
+  margin-right: 20px;
+}
+
+.schedule {
+  border-color: green;
+  border-width: 1px;
+}
+
+.sidenote {
+  background-color: #A7C1D9;
+  background-image: url(../images/climber2.png);
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-position: left;
+  
+ 
+  padding: 20px 20px 20px 80px;
+  margin-right: 50px;
+
+  line-height: 2em;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+}
+
+.directions h2 {
+  text-align: left;
+  text-decoration : underline;
+}
+
+.directions a {
+  color : #95D904;
+}
+
+.workshops th {
+   font-weight: bold;
+   font-size:1em;
+}
+
+#footer a {
+  color :#1C3659; 
+}
+
